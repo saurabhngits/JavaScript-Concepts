@@ -1,8 +1,8 @@
-**Bookmarks** : *[JS at runtime](#JS-runtime)* | *[JS Event Loop and Web API's](#Event-loop)*
+**Bookmarks** : *[JS at runtime](#jsRuntime)* | *[JS Event Loop and Web API's](#eventLoop)*
 
 <br /><br />
 
-# JavaScript At Runtime {#custom-id}
+# JavaScript At Runtime <a id="jsRuntime"></a>
 
 Unlike other programming languages, JavaScript is a **single-threaded** langauge at runtime.
 It means, when you open a website in the browser, it uses a single JavaScript execution thread. That thread is responsible to handle everything, like scrolling the web page, printing something on the web page, listen to DOM events (*like when the user clicks a button*), and doing other things. 
@@ -87,7 +87,7 @@ Since JavaScript is single-threaded, it has only one stack and one heap per proc
 <br />
 <br />
 
-# JavaScript Event Loop And Web API's {#JS-runtime}
+# JavaScript Event Loop And Web API's <a id="eventLoop"></a>
 
 So let’s think of one scenario. What if a browser sends an HTTP request to load some data over the network or to load an image to display on the web page. Will the browser freeze until that request is resolved? If it does, then it’s very bad for user experience.
 
