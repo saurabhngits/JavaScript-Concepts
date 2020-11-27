@@ -84,3 +84,5 @@ The **TurboFan** optimization compiler can optimize this bytecode in the backgro
 **Turbofan** receives the profiling data from the **Ignition** interpreter and looks for the code that is **Hot**. It can make the guesses on how to optimize the code better (by guessing the data types) and optimize or de-optimize the code.
 
 **Ref** : *[Medium JSpoint](https://medium.com/jspoint/how-javascript-works-in-browser-and-node-ab7d0d09ac2f)* 
+
+---
