@@ -39,7 +39,7 @@ In above example function `y()` have access to it's outer scope i.e. scope of fu
 
 <br />
 
-![closure_example_0.](images/js_closure_0.png "Closure example 1.")
+![closure_example_0.](images/js_closure_0.PNG "Closure example 1.")
 
 In above code snippet we have put debugger at line no. 5, so when we refresh the page the debugger will pause at `console.log(a)` and we can see that on right hand inside scope section we are getting a **closure** as `a: 7`. So it is that easy to understand and define a closure.
 
@@ -50,7 +50,7 @@ In above code snippet we have put debugger at line no. 5, so when we refresh the
 
 let's understand it in more details with the help of another example :
 
-![closure_example_1.](images/js_closure_1.png "Closure example 2.")
+![closure_example_1.](images/js_closure_1.PNG "Closure example 2.")
 
 In above code snippet function `x()` returning a *'function defination'* of function `y()`. At line no. 10 variable `z` calling and storing the return value of function `x` i.e. defination of function `y`.
 
